@@ -1,0 +1,39 @@
+---
+datatype:
+  - name: ekg
+    description: Recording of the moment-to-moment electromotive forces of the HEART as projected onto various sites on the body's surface, delineated as a scalar function of time. The recording is monitored by a tracing on slow moving chart paper or by observing it on a cardioscope, which is a CATHODE RAY TUBE DISPLAY
+    description_source: 
+      web: https://meshb.nlm.nih.gov/record/ui?ui=D004562
+    aliases: 
+      - ecg
+      - electrocardiogram
+      - electrocardiography
+      - ecg_data
+      - electrocardiogram_data
+      - electrocardiography_data
+      - ekg_measurements
+      - ecg_measurements
+      - electrocardiogram_measurements
+      - electrocardiography_measurements
+      - ekg_measurements
+    related_terms:
+      - mesh:D004562
+      - ncit:C168186
+    structure_standard: null
+  
+  - name: oct
+    description: Data (typically DICOM images) collected using optical coherence tomography (OCT), an imaging method using LASERS that is used for mapping subsurface structure
+    description_source:  
+      person: 
+        name: Bhavesh Patel
+        orcid: 0000-0002-0307-262X
+    aliases: 
+     - optical_coherence_tomography
+     - optical coherence_tomography_data
+     - optical_coherence tomography_images
+     - oct_data
+     - oct_images
+    related_terms:
+      - null
+    structure_standard: null
+    
